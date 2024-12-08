@@ -14,12 +14,13 @@ void main() {
 
     printf("NOW START THE GAME OF GUSSING NUMBERS!!\n");
     printf("Select the number between 1 to 100 & try to guess it!!\n");
+    //LOOP
     do
     {
         printf("ENTER YOUR NUMBER:");
         scanf("%d", &guess);
         attempts++;
-
+         // CONDITION
         if(guess > secret_number){
             printf("It is High,Try low.\n");
         }
